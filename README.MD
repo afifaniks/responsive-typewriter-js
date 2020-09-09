@@ -9,7 +9,9 @@
 <code><script src="YOUR_PATH/typewriter.js"></script></code>
 - Copy and Paste everything from <code>style.css</code> to your CSS file.
 - Add following lines in you HTML document where you want to use the typewriter -
-  <div class="tr-container"><span id="respTypeWriter">
+ <pre> 
+  <code><div class="tr-container"><span id="respTypeWriter">
     </span><span class="cursor">&nbsp;</span>
-  </div>
+  </div></code>
+ </pre>
 
