@@ -1,0 +1,38 @@
+#respTypeWriter {
+    color: black;
+    font-size: 30px;
+}
+.tr-container {
+    text-align: center; 
+    margin: 0 auto; 
+    display: block;
+    width: 100%;
+    top: 50%;
+    position: relative;
+    align-self: center; 
+    font-size: 30px;
+ }
+
+.cursor {
+    display: inline-block;
+    width: 3px;
+    background-color: black;
+    margin-left: 0.5rem;
+    animation: blink 1s infinite;
+}
+
+.cursor.typing {
+    animation: none;
+}
+
+@keyframes blink {
+    0% {
+        background-color: black;
+    }
+    50% {
+        background-color: transparent;
+    }
+    100% {
+        background-color: black;
+    }
+}
